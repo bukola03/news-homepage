@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="../dist/output.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="md:mx-32 mx-5">
+  <div class="flex justify-between mx-10 my-12 ">
+    <div>
+      <img src="../assets/images/logo.svg" alt="">
+    </div>
+    <div>
+      <nav>
+        <ul class="md:flex hidden space-x-8 text-[#5d5f79]">
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="md:grid grid-cols-3">
+    <div class="col-span-2">
+      <img src="../assets/images/image-web-3-desktop.jpg" alt="">
+      <div class="md:grid grid-cols-2">
+        <div>
+          <h2 class="text-5xl font-extrabold md:px-5 md:py-12 py-5 md:mx-9">The Bright Future of Web 3.0?</h2>
+        </div>
+        <div class="mx-5 py-10">
+          <p class="text-[#c5c6ce]">We dive into the next evolution of the web that claims to put the power of the
+            platforms back into the
+            hands of the people.But is it really fulfilling its promise?</p>
+          <button class="bg-[#f15e50] text-white px-5 py-1 mt-3 tracking-widest">READ MORE</button>
+        </div>
+      </div>
+    </div>
+    <div class="bg-[#00001a] md:mx-7 px-8">
+      <h2 class="text-[#e9ab53] py-5 pl-4 font-bold text-2xl">New</h2>
+
+      <h3 class="text-white font-extrabold text-2xl"> Hydrogen VS Electric Cars</h3>
+      <p class="text-white"> Will hydrogen-fueled cars ever catch up to EVs?</p>
+
+      <h3 class="text-white pt-8 font-extrabold text-2xl">The Downsides of AI Artistry</h3>
+      <p class="text-white pb-4"> What are the possible adverse effects of on-demand AI image generation?</p>
+      <hr class="text-white">
+      <h3 class="text-white pt-6 font-extrabold text-2xl">Is VC Funding Drying Up?</h3>
+      <p class="text-white"> Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </div>
+  </div>
+  <div class="md:grid grid-cols-3 mt-16 md:space-y-0 space-y-5 ">
+    <div class="flex">
+
+      <img class="h-44 w-44 object-cover" src="../assets/images/image-retro-pcs.jpg" alt="">
+
+      <div class="ml-2">
+        <h2 class="text-[#c5c6ce] text-4xl font-bold"> 01</h2>
+        <h3 class="font-bold font-9xl text-lg pb-7 pt-3">Reviving Retro PCs</h3>
+        <p class="text-[#c5c6ce]">What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </div>
+    <div class="flex">
+
+      <img class="h-44 w-44 object-cover" src="../assets/images/image-top-laptops.jpg" alt="">
+
+      <div class="ml-2">
+        <h2 class="text-[#c5c6ce] text-4xl font-bold">02</h2>
+        <h3 class="font-bold font-9xl text-lg pb-7 pt-3"> Top 10 Laptops of 2022</h3>
+        <p class="text-[#c5c6ce]">Our best picks for various needs and budgets.</p>
+      </div>
+    </div>
+    <div class="flex">
+
+      <img class="h-44 w-44 object-cover" src="../assets/images/image-gaming-growth.jpg" alt="">
+
+      <div class="ml-2">
+        <h2 class="text-[#c5c6ce] text-4xl font-bold">03</h2>
+        <h3 class="font-bold font-9xl text-lg pb-7 pt-3"></h3>The Growth of Gaming</h3>
+        <p class="text-[#c5c6ce]">How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">BUKOLA</a>.
+    </div>
+</body>
+
+</html>
